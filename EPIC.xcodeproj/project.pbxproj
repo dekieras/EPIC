@@ -118,7 +118,6 @@
 		B710348617B007690071511E /* PPS_rule_compiler_classes.h in Headers */ = {isa = PBXBuildFile; fileRef = B710339517B007690071511E /* PPS_rule_compiler_classes.h */; };
 		B710348717B007690071511E /* PPS_rule_compiler_interface.h in Headers */ = {isa = PBXBuildFile; fileRef = B710339617B007690071511E /* PPS_rule_compiler_interface.h */; };
 		B710348817B007690071511E /* PPS_rule_compiler_pair_types.h in Headers */ = {isa = PBXBuildFile; fileRef = B710339717B007690071511E /* PPS_rule_compiler_pair_types.h */; };
-		B710348917B007690071511E /* negation_fix.txt in Resources */ = {isa = PBXBuildFile; fileRef = B710339817B007690071511E /* negation_fix.txt */; };
 		B710348A17B007690071511E /* And_Nodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B710339A17B007690071511E /* And_Nodes.cpp */; };
 		B710348B17B007690071511E /* And_Nodes.h in Headers */ = {isa = PBXBuildFile; fileRef = B710339B17B007690071511E /* And_Nodes.h */; };
 		B710348C17B007690071511E /* Combining_Nodes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B710339C17B007690071511E /* Combining_Nodes.cpp */; };
@@ -187,7 +186,6 @@
 		B71034D117B0076A0071511E /* Symbol_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = B71033E517B007690071511E /* Symbol_memory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71034D217B0076A0071511E /* Symbol_utilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B71033E617B007690071511E /* Symbol_utilities.cpp */; };
 		B71034D317B0076A0071511E /* Symbol_utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B71033E717B007690071511E /* Symbol_utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B71034D417B0076A0071511E /* testheader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B71033E817B007690071511E /* testheader.cpp */; };
 		B71034D517B0076A0071511E /* Utility_templates.h in Headers */ = {isa = PBXBuildFile; fileRef = B71033E917B007690071511E /* Utility_templates.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B71034D617B0076A0071511E /* Eye_event_types.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B71033EB17B007690071511E /* Eye_event_types.cpp */; };
 		B71034D717B0076A0071511E /* Eye_event_types.h in Headers */ = {isa = PBXBuildFile; fileRef = B71033EC17B007690071511E /* Eye_event_types.h */; };
@@ -373,7 +371,6 @@
 		B710339517B007690071511E /* PPS_rule_compiler_classes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPS_rule_compiler_classes.h; sourceTree = "<group>"; };
 		B710339617B007690071511E /* PPS_rule_compiler_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPS_rule_compiler_interface.h; sourceTree = "<group>"; };
 		B710339717B007690071511E /* PPS_rule_compiler_pair_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPS_rule_compiler_pair_types.h; sourceTree = "<group>"; };
-		B710339817B007690071511E /* negation_fix.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = negation_fix.txt; sourceTree = "<group>"; };
 		B710339A17B007690071511E /* And_Nodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = And_Nodes.cpp; sourceTree = "<group>"; };
 		B710339B17B007690071511E /* And_Nodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = And_Nodes.h; sourceTree = "<group>"; };
 		B710339C17B007690071511E /* Combining_Nodes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Combining_Nodes.cpp; sourceTree = "<group>"; };
@@ -442,7 +439,6 @@
 		B71033E517B007690071511E /* Symbol_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol_memory.h; sourceTree = "<group>"; };
 		B71033E617B007690071511E /* Symbol_utilities.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Symbol_utilities.cpp; sourceTree = "<group>"; };
 		B71033E717B007690071511E /* Symbol_utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol_utilities.h; sourceTree = "<group>"; };
-		B71033E817B007690071511E /* testheader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testheader.cpp; sourceTree = "<group>"; };
 		B71033E917B007690071511E /* Utility_templates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility_templates.h; sourceTree = "<group>"; };
 		B71033EB17B007690071511E /* Eye_event_types.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Eye_event_types.cpp; sourceTree = "<group>"; };
 		B71033EC17B007690071511E /* Eye_event_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eye_event_types.h; sourceTree = "<group>"; };
@@ -735,7 +731,6 @@
 			isa = PBXGroup;
 			children = (
 				B710338F17B007690071511E /* Compiler components */,
-				B710339817B007690071511E /* negation_fix.txt */,
 				B710339917B007690071511E /* Network nodes */,
 				B71033AA17B007690071511E /* PPS Interface classes */,
 				B71033B417B007690071511E /* Variables and Bindings */,
@@ -855,7 +850,6 @@
 				B71033E517B007690071511E /* Symbol_memory.h */,
 				B71033E617B007690071511E /* Symbol_utilities.cpp */,
 				B71033E717B007690071511E /* Symbol_utilities.h */,
-				B71033E817B007690071511E /* testheader.cpp */,
 				B71033E917B007690071511E /* Utility_templates.h */,
 			);
 			path = "Utility Classes";
@@ -1212,7 +1206,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71032FD17B0036E0071511E /* InfoPlist.strings in Resources */,
-				B710348917B007690071511E /* negation_fix.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1322,7 +1315,6 @@
 				B71034CD17B0076A0071511E /* Symbol.cpp in Sources */,
 				B71034D017B0076A0071511E /* Symbol_memory.cpp in Sources */,
 				B71034D217B0076A0071511E /* Symbol_utilities.cpp in Sources */,
-				B71034D417B0076A0071511E /* testheader.cpp in Sources */,
 				B71034D617B0076A0071511E /* Eye_event_types.cpp in Sources */,
 				B71034D817B0076A0071511E /* Eye_processor.cpp in Sources */,
 				B71034DA17B0076A0071511E /* Eye_retina_functions.cpp in Sources */,
