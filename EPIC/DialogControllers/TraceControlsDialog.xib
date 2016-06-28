@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="TraceControlsDialog">
+            <connections>
+                <outlet property="checkBoxAuditory" destination="17" id="55"/>
+                <outlet property="checkBoxCognitive" destination="23" id="58"/>
+                <outlet property="checkBoxDevice" destination="40" id="62"/>
+                <outlet property="checkBoxManual" destination="31" id="60"/>
+                <outlet property="checkBoxOcular" destination="27" id="59"/>
+                <outlet property="checkBoxTemporal" destination="65" id="73"/>
+                <outlet property="checkBoxVisual" destination="13" id="54"/>
+                <outlet property="checkBoxVocal" destination="36" id="61"/>
+                <outlet property="window" destination="1" id="3"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Trace Settings" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" animationBehavior="default" id="1">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="196" y="240" width="212" height="260"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1177"/>
+            <view key="contentView" id="2">
+                <rect key="frame" x="0.0" y="0.0" width="212" height="260"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5">
+                        <rect key="frame" x="139" y="13" width="59" height="32"/>
+                        <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+DQ
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="pickedOKButton:" target="-2" id="63"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="9">
+                        <rect key="frame" x="57" y="13" width="82" height="32"/>
+                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="10">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="pickedCancelButton:" target="-2" id="64"/>
+                        </connections>
+                    </button>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="13">
+                        <rect key="frame" x="18" y="224" width="59" height="18"/>
+                        <buttonCell key="cell" type="check" title="Visual" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="14">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="17">
+                        <rect key="frame" x="18" y="204" width="73" height="18"/>
+                        <buttonCell key="cell" type="check" title="Auditory" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="18">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="23">
+                        <rect key="frame" x="18" y="184" width="80" height="18"/>
+                        <buttonCell key="cell" type="check" title="Cognitive" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="24">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="27">
+                        <rect key="frame" x="18" y="164" width="62" height="18"/>
+                        <buttonCell key="cell" type="check" title="Ocular" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="28">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="31">
+                        <rect key="frame" x="18" y="144" width="66" height="18"/>
+                        <buttonCell key="cell" type="check" title="Manual" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="32">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="36">
+                        <rect key="frame" x="18" y="124" width="56" height="18"/>
+                        <buttonCell key="cell" type="check" title="Vocal" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="37">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="40">
+                        <rect key="frame" x="18" y="84" width="64" height="18"/>
+                        <buttonCell key="cell" type="check" title="Device" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="41">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button translatesAutoresizingMaskIntoConstraints="NO" id="65">
+                        <rect key="frame" x="18" y="104" width="79" height="18"/>
+                        <buttonCell key="cell" type="check" title="Temporal" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="66">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="5" secondAttribute="bottom" constant="20" symbolic="YES" id="7"/>
+                    <constraint firstAttribute="trailing" secondItem="5" secondAttribute="trailing" constant="20" symbolic="YES" id="8"/>
+                    <constraint firstItem="5" firstAttribute="leading" secondItem="9" secondAttribute="trailing" constant="12" symbolic="YES" id="11"/>
+                    <constraint firstAttribute="bottom" secondItem="9" secondAttribute="bottom" constant="20" symbolic="YES" id="12"/>
+                    <constraint firstItem="13" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="15"/>
+                    <constraint firstItem="13" firstAttribute="top" secondItem="2" secondAttribute="top" constant="20" symbolic="YES" id="16"/>
+                    <constraint firstItem="17" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="21"/>
+                    <constraint firstItem="23" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="25"/>
+                    <constraint firstItem="27" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="29"/>
+                    <constraint firstItem="31" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="35"/>
+                    <constraint firstItem="36" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="44"/>
+                    <constraint firstItem="40" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="47"/>
+                    <constraint firstItem="17" firstAttribute="top" secondItem="13" secondAttribute="bottom" constant="6" symbolic="YES" id="48"/>
+                    <constraint firstItem="23" firstAttribute="top" secondItem="17" secondAttribute="bottom" constant="6" symbolic="YES" id="49"/>
+                    <constraint firstItem="27" firstAttribute="top" secondItem="23" secondAttribute="bottom" constant="6" symbolic="YES" id="50"/>
+                    <constraint firstItem="31" firstAttribute="top" secondItem="27" secondAttribute="bottom" constant="6" symbolic="YES" id="51"/>
+                    <constraint firstItem="36" firstAttribute="top" secondItem="31" secondAttribute="bottom" constant="6" symbolic="YES" id="52"/>
+                    <constraint firstItem="65" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="70"/>
+                    <constraint firstItem="65" firstAttribute="top" secondItem="36" secondAttribute="bottom" constant="6" symbolic="YES" id="71"/>
+                    <constraint firstItem="40" firstAttribute="top" secondItem="65" secondAttribute="bottom" constant="6" symbolic="YES" id="72"/>
+                </constraints>
+            </view>
+            <connections>
+                <outlet property="delegate" destination="-2" id="4"/>
+            </connections>
+        </window>
+    </objects>
+</document>
